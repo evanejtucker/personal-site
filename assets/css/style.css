@@ -1,0 +1,25 @@
+
+/*css for the navbar*/
+	#navBar {
+		background: teal;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#navTitle {
+
+	}
+
+	/*mobile side nav*/
+	.side-nav {
+		width: 150px;
+		padding: 0;
+
+	}
+/*end of css for navbar*/
+
+	.parallax-container {
+      height: 300px;
+      width: 100%;
+    }
+

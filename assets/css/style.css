@@ -13,7 +13,8 @@
 	/*mobile side nav*/
 	.side-nav {
 		width: 150px;
-		padding: 0;
+		padding-left: 0px;
+		padding-right: 0px;
 
 	}
 /*end of css for navbar*/
@@ -21,5 +22,9 @@
 	.parallax-container {
       height: 300px;
       width: 100%;
+    }
+
+    #portrait {
+    	
     }
 

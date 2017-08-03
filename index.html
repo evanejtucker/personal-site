@@ -34,18 +34,19 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="waves-effect waves-light" id="aboutMe" href="#">About Me</a></li>
-        <li><a class="waves-effect waves-light" href="#">Portfolio</a></li>
-        <li><a class="waves-effect waves-light" id="contact" href="#">Contact</a></li>
+        <li><a class="waves-effect waves-light" id="portfolio" href="#">Portfolio</a></li>
+        <li><a class="waves-effect waves-light" id="connect" href="#">Connect</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="waves-effect waves-teal" href="#">About Me</a></li>
         <li><a class="waves-effect waves-teal" href="#">Portfolio</a></li>
-        <li><a class="waves-effect waves-teal" href="#">Contact</a></li>
+        <li><a class="waves-effect waves-teal" href="#">Connect</a></li>
       </ul>
     </div>
   </nav>
-
-  <div class="parallax-container">
+  
+  <!-- About me section -->
+  <div class="parallax-container" id="scrollAboutMe">
     <div class="parallax"><img src="assets/images/gambier.JPG"></div>
   </div>
 
@@ -53,36 +54,66 @@
     <div class="row container">
       <div class="col s12 m6">
         <h2 class="header">About Me</h2>
-        <p class="grey-text text-darken-3 lighten-3">Born in the great white North, my jouney began with humble beginings in the town of Kamloops, Biritsh Colombia.  At the age of 4, my family moved to Denver Colorado.  10 years later my family once again moved to Washington State, where I attended Issaquah High School, just outside Seattle.  During high school I joined the swim team, where I was captain my senior year, I was also involved in student government.</p>
-        <p class="grey-text text-darken-3 lighten-3">After high school, I moved back to Colorado where I attended the University of Colorado Boulder </p>
+        <p class="grey-text text-darken-3 lighten-3">I am a student at the University of Colorado Denver earning my bachelors degree in Business with an emphasis on marketing, and will graduate in may 2018.  I am also working to become a full-stack developer through a coding bootcamp at the University of Denver.</p>
+        <p class="grey-text text-darken-3 lighten-3">My interests include traveling, hiking, video games and movies.</p>
       </div>
        <div class="col s12 m6">
          <img class="circle responsive-img z-depth-3" id="portrait" src="assets/images/fishing.JPG">
        </div>
     </div>
   </div>
-
-  <div class="parallax-container">
+  
+  <!-- portfolio section -->
+  <div class="parallax-container" id="scrollPortfolio">
     <div class="parallax"><img src="assets/images/gambier-2.JPG"></div>
   </div>
 
-  <div class="section white">
+  <div class="section white" >
     <div class="row container">
       <h2 class="header">Portfolio</h2>
-      <p class="grey-text text-darken-3 lighten-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/hangman-background.JPG">
+                <span class="card-title">Hangman Game</span>
+              </div>
+              <div class="card-content">
+                <p>A simple hangman game </p>
+              </div>
+              <div class="card-action">
+                <a href="https://evanejtucker.github.io/Hangman-Game/" target="blank">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="assets/images/hangman-background.JPG">
+                <span class="card-title">Hangman Game</span>
+              </div>
+              <div class="card-content">
+                <p>A simple hangman game </p>
+              </div>
+              <div class="card-action">
+                <a href="https://evanejtucker.github.io/Hangman-Game/" target="blank">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
-
-  <div class="parallax-container">
+    
+  <!-- connect with me section -->
+  <div class="parallax-container" id="scrollContact">
     <div class="parallax"><img src="assets/images/arthursSeat.JPG"></div>
   </div>
 
   <div class="section white">
     <div class="row container">
-      <h2 class="header">Contact</h2>
+      
       <form class="col s12 m8">
+      <h2 class="header">Contact</h2>
         <div class="row">
           <div class="input-field col s12 m9">
             <input placeholder="name" id="name" type="text" class="validate">
@@ -101,7 +132,20 @@
           </button>
         </div>
       </form>
+      
+      <div class="col s12 m3" id="connectWithMe">
+        <h5>Connect With Me On</h5>
+        <div class="col s6 m12">
+          <img class="responsive-img connectImg" src="assets/images/linkedin.png">
+        </div>
+        <div class="col s6 m12">
+          <a href="#"><img class="responsive-img" src="assets/images/github.png"></a>
+        </div>
+      </div>
+
     </div>
+
+
   </div>
   
 

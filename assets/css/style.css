@@ -24,7 +24,8 @@
       width: 100%;
     }
 
-    #portrait {
-    	
+    #hangman-game {
+    	background-image: url("../images/hangman-background.JPG");
     }
 
+   
